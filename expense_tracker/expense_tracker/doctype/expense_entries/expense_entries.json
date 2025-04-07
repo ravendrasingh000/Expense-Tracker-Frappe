@@ -1,0 +1,70 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-05 10:14:47.044869",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "amount",
+  "credit_debit",
+  "date",
+  "expense_category",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Title"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Amount"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "expense_category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Expense Category",
+   "options": "Food & Dining\nTransportation\nBills & Utilities\nGroceries\nEntertainment\nShopping\nHealth & Medical\nEducation\nTravel\nRent\nInsurance\nLoan EMI\nInvestment\nMobile & Internet\nSubscriptions\nFuel / Petrol\nPersonal Care\nDonations\nGifts\nOther"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Description"
+  },
+  {
+   "fieldname": "credit_debit",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Credit/Debit",
+   "options": "Credit\nDebit"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-04-05 14:33:33.505350",
+ "modified_by": "Administrator",
+ "module": "Expense Tracker",
+ "name": "Expense Entries",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
