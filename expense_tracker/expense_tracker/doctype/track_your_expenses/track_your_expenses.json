@@ -13,7 +13,7 @@
   "mobile_no",
   "date",
   "section_break_oazz",
-  "data_mrga",
+  "table_rows",
   "section_break_yrpx",
   "total_credit",
   "saving_amount",
@@ -51,11 +51,6 @@
    "label": "Expense Information"
   },
   {
-   "fieldname": "data_mrga",
-   "fieldtype": "Table",
-   "options": "Expense Entries"
-  },
-  {
    "fieldname": "email",
    "fieldtype": "Data",
    "label": "Email"
@@ -83,12 +78,17 @@
    "fieldname": "saving_amount",
    "fieldtype": "Currency",
    "label": "Saving Amount"
+  },
+  {
+   "fieldname": "table_rows",
+   "fieldtype": "Table",
+   "options": "Expense Entries"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-06 22:22:30.567444",
+ "modified": "2025-04-07 21:27:26.500170",
  "modified_by": "Administrator",
  "module": "Expense Tracker",
  "name": "Track Your Expenses",

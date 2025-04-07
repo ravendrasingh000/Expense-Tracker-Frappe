@@ -9,7 +9,7 @@ class TrackYourExpenses(Document):
         self.total_credit = 0
         self.total_debit = 0
 
-        for row in self.data_mrga:
+        for row in self.table_rows:
             if row.credit_debit == "Credit":
                 self.total_credit += row.amount
             elif row.credit_debit == "Debit":
